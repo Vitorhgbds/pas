@@ -22,7 +22,7 @@ class ServicoDeVendas {
     const param = [];
 
     itens.forEach((item) => {
-      param.push({ codigo: item.produto.codigo, quantidade: item.qtdade });
+      param.push({ qtd: item.qtdade, precoUnitario: item.produto.preco, codigoProduto: item.produto.codigo });
     });
 
     const otherParam = {
@@ -48,7 +48,7 @@ class ServicoDeVendas {
     const param = [];
 
     itens.forEach((item) => {
-      param.push({ codigo: item.produto.codigo, quantidade: item.qtdade });
+      param.push({ qtd: item.qtdade, precoUnitario: item.produto.preco, codigoProduto: item.produto.codigo });
     });
 
     const otherParam = {
@@ -56,7 +56,8 @@ class ServicoDeVendas {
       body: JSON.stringify(param),
       method: "POST",
     };
-
+    console.log(url)
+    console.log(otherParam)
     try {
       let resposta = await fetch(url, otherParam);
       if (resposta.ok) {
