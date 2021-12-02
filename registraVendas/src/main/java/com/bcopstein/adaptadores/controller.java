@@ -5,6 +5,7 @@ import java.util.List;
 import com.bcopstein.aplicacao.UC_ConsultaHistoricoVendas;
 import com.bcopstein.aplicacao.UC_RegistraVenda;
 import com.bcopstein.negocio.entidades.ItemVenda;
+import com.bcopstein.negocio.entidades.Produto;
 import com.bcopstein.negocio.entidades.Venda;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,8 +36,6 @@ public class controller {
     System.out.println("histórico");
     return this.consultaHistoricoVendas.run();
   }
-
-
 
   @PostMapping("/registrar")
   @CrossOrigin(origins = "*")

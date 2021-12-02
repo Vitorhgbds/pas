@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../SvFtEt6/SvFtEt6.iml" filepath="$PROJECT_DIR$/../SvFtEt6/SvFtEt6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estoque.iml" filepath="$PROJECT_DIR$/estoque.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gateway/gateway.iml" filepath="$PROJECT_DIR$/../gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../registraVendas/registraVendas.iml" filepath="$PROJECT_DIR$/../registraVendas/registraVendas.iml" />
+    </modules>
+  </component>
+</project>

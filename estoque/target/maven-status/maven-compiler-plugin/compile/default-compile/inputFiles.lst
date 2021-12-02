@@ -1,27 +1,27 @@
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/entidades/ItemEstoque.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/adaptadores/persistencia/IProdutosRepositoryJPA.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/repositorios/IEstoqueRepository.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/servicos/ServicoEstoque.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/entidades/ItemVenda.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/factories/RestricaoUm.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/Estoque.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/factories/ICalculoImposto.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/aplicacao/UC_ConsultaDisponibilidade.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/aplicacao/UC_AdicionaEstoque.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/factories/RestricaoDois.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/adaptadores/controller.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/factories/RestricoesFactory.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/factories/IRestricoes.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/entidades/Produto.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/repositorios/IProdutosRepository.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/factories/ImpostoUm.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/aplicacao/UC_ConsultaProdutos.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/adaptadores/persistencia/IEstoqueRepositoryJPA.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/aplicacao/UC_RetiraEstoque.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/adaptadores/persistencia/ProdutosRepository.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/factories/ImpostoDois.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/adaptadores/persistencia/EstoqueRepository.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/entidades/Venda.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/servicos/ServicoProdutos.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/negocio/factories/ImpostoFactory.java
-/workspaces/projarc/T1/estoque/src/main/java/com/bcopstein/aplicacao/UC_ConsultaEstoque.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\aplicacao\UC_RetiraEstoque.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\adaptadores\persistencia\IProdutosRepositoryJPA.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\repositorios\IProdutosRepository.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\factories\RestricaoDois.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\servicos\ServicoProdutos.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\Estoque.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\factories\ImpostoFactory.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\entidades\ItemEstoque.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\factories\ICalculoImposto.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\aplicacao\UC_ConsultaDisponibilidade.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\adaptadores\controller.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\factories\IRestricoes.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\adaptadores\persistencia\ProdutosRepository.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\adaptadores\persistencia\EstoqueRepository.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\factories\ImpostoDois.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\entidades\Venda.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\aplicacao\UC_ConsultaEstoque.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\factories\ImpostoUm.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\entidades\Produto.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\servicos\ServicoEstoque.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\entidades\ItemVenda.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\adaptadores\persistencia\IEstoqueRepositoryJPA.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\aplicacao\UC_ConsultaProdutos.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\repositorios\IEstoqueRepository.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\factories\RestricoesFactory.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\aplicacao\UC_AdicionaEstoque.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\estoque\src\main\java\com\bcopstein\negocio\factories\RestricaoUm.java

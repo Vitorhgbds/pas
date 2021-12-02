@@ -22,15 +22,15 @@ services:
 #      - "5672:5672"
 #      - "15672:15672"
   servVendas:
-#    depends_on:
-#      - "rabbitmq"
+    depends_on:
+      - "gateway"
     ports:
       - "8081:8080"
     build: ./registraVendas
     image: "vendas:latest"
   servEstoque:
-#    depends_on:
-#      - "rabbitmq"
+    depends_on:
+      - "gateway"
     ports:
       - "8082:8080"
     build: ./estoque
@@ -38,8 +38,8 @@ services:
   gateway:
     ports:
       - "8080:8080"
-    depends_on:
-      - "servVendas"
-      - "servEstoque"
+#    depends_on:
+#      - "servVendas"
+#      - "servEstoque"
     build: ./gateway
     image: "gateway:latest"

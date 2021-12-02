@@ -1,19 +1,34 @@
 class ServicoDeVendas {
   async autoriza(codigo, quantidade) {
-    let url = this.baseUrl + "/vendas/autorizacao";
-    url += "?codProd=" + codigo + "&qtdade=" + quantidade;
+    let url = this.stockUrl + "/estoque/autorizaVenda";
+//    url += "?codProd=" + codigo + "&qtd=" + quantidade
 
-    try {
-      let resposta = await fetch(url);
-      if (resposta.ok) {
-        let aprovacao = await resposta.json();
-        return aprovacao;
-      } else {
-        console.error(resposta.status, resposta.statusText);
-      }
-    } catch (erro) {
-      console.error(erro);
+    try{
+        let resposta = await fetch(url)
+//        , {
+//        method: 'GET',
+//        headers: {
+//            'Accept': 'application.json',
+//            'Content-Type': 'application.json'
+//        },
+//        body: JSON.stringify({codProd: codigo, qtd: quantidade })
+//        });
+        console.log(resposta.json())
+    }catch (erro) {
+        console.error(erro);
     }
+
+//    try {
+//      let resposta = await fetch(url);
+//      if (resposta.ok) {
+//        let aprovacao = await resposta.json();
+//        return aprovacao;
+//      } else {
+//        console.error(resposta.status, resposta.statusText);
+//      }
+//    } catch (erro) {
+//      console.error(erro);
+//    }
     return false;
   }
 
@@ -54,7 +69,7 @@ class ServicoDeVendas {
     const otherParam = {
       headers: { "content-type": "application/json" },
       body: JSON.stringify(param),
-      method: "POST",
+          method: "POST",
     };
     console.log(url)
     console.log(otherParam)
@@ -71,7 +86,7 @@ class ServicoDeVendas {
   }
 
   async getProdutos() {
-    const url = this.baseUrl + "/vendas/produtos";
+    const url = this.stockUrl + "/estoque/produtos";
     const produtos = [];
 
     try {
@@ -96,7 +111,8 @@ class ServicoDeVendas {
     return produtos;
   }
 
-  constructor(baseUrl) {
+  constructor(baseUrl, stockUrl) {
     this.baseUrl = baseUrl;
+    this.stockUrl = stockUrl;
   }
 }

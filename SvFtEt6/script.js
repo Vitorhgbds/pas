@@ -38,7 +38,6 @@ async function mudarQuantidade(itemCarrinhoView) {
 async function adicionarAoCarrinho(produto) {
   
   let qtd = await carrinho.quantidade(produto.codigo);
-  
   if (qtd > 0) {
     let autorizado = await servico.autoriza(produto.codigo, qtd + 1);
     if (autorizado) {
@@ -124,7 +123,7 @@ function bindClear(btn) {
 
 // Inicialização
 async function init() {
-  servico = new ServicoDeVendas("http://localhost:8080");
+  servico = new ServicoDeVendas("http://localhost:8081","http://localhost:8082");
 
   carrinho = new CarrinhoView(new Carrinho(), carrinhoRoot);
   produtos = new ProdutoListView(servico, produtosRoot);

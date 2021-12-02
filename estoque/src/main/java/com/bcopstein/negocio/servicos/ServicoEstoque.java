@@ -108,7 +108,7 @@ public class ServicoEstoque {
     }
 
     public boolean consultaDisponibilidade(Long codProd, int qtd){
-        return this.listAll().stream().anyMatch(item -> item.getCodigoProduto() == codProd && item.getQtd() >= qtd);
+        return this.listAll().stream().anyMatch(item -> item.getCodigoProduto().equals(codProd) && item.getQtd() >= qtd);
     }
 
     // public Produto get(Long codigo){

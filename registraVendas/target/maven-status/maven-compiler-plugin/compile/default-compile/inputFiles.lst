@@ -1,21 +1,21 @@
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/RegistraVendas.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/factories/ImpostoDois.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/entidades/ItemVenda.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/servicos/ServicoVendas.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/aplicacao/UC_RegistraVenda.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/repositorios/IVendasRepository.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/adaptadores/persistencia/VendasRepository.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/factories/RestricaoDois.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/aplicacao/UC_ConsultaHistoricoVendas.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/adaptadores/client/EstoqueClient.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/factories/IRestricoes.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/factories/ImpostoFactory.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/entidades/ItemEstoque.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/entidades/Produto.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/entidades/Venda.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/factories/RestricoesFactory.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/adaptadores/persistencia/IVendasRepositoryJPA.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/adaptadores/controller.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/factories/ImpostoUm.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/factories/RestricaoUm.java
-/workspaces/projarc/T1/registraVendas/src/main/java/com/bcopstein/negocio/factories/ICalculoImposto.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\adaptadores\client\EstoqueClient.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\factories\ImpostoUm.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\aplicacao\UC_ConsultaHistoricoVendas.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\adaptadores\persistencia\IVendasRepositoryJPA.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\entidades\ItemVenda.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\factories\IRestricoes.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\aplicacao\UC_RegistraVenda.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\factories\ICalculoImposto.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\factories\RestricaoDois.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\repositorios\IVendasRepository.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\RegistraVendas.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\factories\RestricaoUm.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\entidades\ItemEstoque.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\factories\RestricoesFactory.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\entidades\Produto.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\factories\ImpostoFactory.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\factories\ImpostoDois.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\adaptadores\controller.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\adaptadores\persistencia\VendasRepository.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\entidades\Venda.java
+C:\Users\julia\Desktop\Aula 5- semestre\gitpas\pas\registraVendas\src\main\java\com\bcopstein\negocio\servicos\ServicoVendas.java

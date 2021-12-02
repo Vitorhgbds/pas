@@ -14,10 +14,10 @@ public class GatewayApplication {
         return builder.routes()
         .route(p -> p
             .path("/vendas/*")
-            .uri("http://servVendas:8080"))
+            .uri("http://servVendas:8081"))
         .route(p -> p
             .path("/estoque/*")
-            .uri("http://servEstoque:8080"))
+            .uri("http://servEstoque:8082"))
         .build();
     }
     public static void main(String[] args) {
